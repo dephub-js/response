@@ -20,7 +20,6 @@ export default defineConfig({
     lib: {
       entry,
     },
-
     reportCompressedSize: true,
     rollupOptions: {
       external: ['*'],
@@ -35,7 +34,6 @@ export default defineConfig({
       ],
     },
     ssr: true,
-
     target: 'esnext',
   },
   plugins: [dtsPlugin],

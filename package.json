@@ -1,8 +1,8 @@
 {
-  "name": "@dephub/response",
+  "name": "@dephub/sort-date",
   "type": "module",
-  "version": "1.0.3",
-  "description": "Enhanced HTTP Response class with convenient static methods for common scenarios",
+  "version": "1.0.0",
+  "description": "Sort arrays of objects in place in descending order by a date property.",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
   "scripts": {
@@ -21,11 +21,8 @@
     "dev": "vite build -w --mode development"
   },
   "keywords": [
-    "http",
-    "response",
-    "fetch",
-    "api",
-    "json",
+    "date",
+    "sort-date",
     "typescript",
     "nodejs",
     "dephub"
@@ -41,13 +38,13 @@
     "dist"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/dephub-js/response#readme",
+  "homepage": "https://github.com/dephub-js/sort-date#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dephub-js/response.git"
+    "url": "https://github.com/dephub-js/sort-date.git"
   },
   "bugs": {
-    "url": "https://github.com/dephub-js/response/issues"
+    "url": "https://github.com/dephub-js/sort-date/issues"
   },
   "publishConfig": {
     "access": "public"
