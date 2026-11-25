@@ -1,1 +1,1 @@
-export { HttpResponse } from './core/response.js';
+export { HttpResponse } from './core/response.ts';
